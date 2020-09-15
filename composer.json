@@ -6,5 +6,10 @@
             "email": "alhaidara88@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "projetMagicCard\\": "src/"
+        }
+    }
 }

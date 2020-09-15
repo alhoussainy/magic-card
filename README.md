@@ -46,3 +46,13 @@ cd public
 ## PHPRtorm setup
 
 *  add server configuration
+
+## coding style 
+*commence par une majuscule
+*fichier a le meme nom que la class
+*une class par fichier
+*chaque class a un namespace obligatoirement(commence par une maj)
+*max 200 ligne par fichier 
+*max 80 carac par ligne 
+*max 10 methode 
+*max 20 ligne par methode 
