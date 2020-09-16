@@ -4,11 +4,20 @@ use projetMagicCard\Entity\Card;
 use projetMagicCard\Entity\Color;
 use projetMagicCard\Entity\User;
 
+use projetMagicCard\Services\CardService;
 
 
 include "./../vendor/autoload.php";
 
-$user= new User('dodo');
+//$mycard=new Card();
+$jsondata=new CardService();
+
+$cardlist=$jsondata->findAll();
+
+var_dump($cardlist);
+
+
+
 
 
 
