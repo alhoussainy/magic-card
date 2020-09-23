@@ -11,7 +11,7 @@ class Card
     private $manaCost;
     private $type;
     private string $description;
-    private string $image;
+    private string $imageUrl;
     private array $colorlist;
 
     /**
@@ -97,17 +97,17 @@ class Card
     /**
      * @return string
      */
-    public function getImage(): string
+    public function getImageUrl(): string
     {
-        return $this->image;
+        return $this->imageUrl;
     }
 
     /**
-     * @param string $image
+     * @param string $imageUrl
      */
-    public function setImage(string $image): void
+    public function setImageUrl(string $imageUrl): void
     {
-        $this->image = $image;
+        $this->imageUrl = $imageUrl;
     }
 
     /**
@@ -125,6 +125,7 @@ class Card
     {
         $this->colorlist = $colorlist;
     }
+
 
 
 
